@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.1...v0.0.2)
+
+### 🩹 Fixes
+
+- Fix executable error ([9e19a35](https://github.com/okineadev/okineadev-npm/commit/9e19a35))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.1
 
 
