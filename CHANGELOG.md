@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.2...v0.0.3)
+
+### 🩹 Fixes
+
+- Try to fix executable error ([c64a1b0](https://github.com/okineadev/okineadev-npm/commit/c64a1b0))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.2
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.1...v0.0.2)
