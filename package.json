@@ -1,6 +1,6 @@
 {
 	"name": "okineadev",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"module": "index.ts",
 	"bin": {
 		"okineadev": "dist/cli.js"
