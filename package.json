@@ -1,0 +1,27 @@
+{
+	"name": "okineadev",
+	"version": "0.0.1",
+	"module": "index.ts",
+	"bin": "dist/cli.js",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/bun": "latest",
+		"changelogen": "^0.5.7"
+	},
+	"scripts": {
+		"lint": "biome check --fix",
+		"format": "biome format --write .",
+		"preversion": "bun run format && git add .",
+		"build": "bun build ./index.ts --outfile ./dist/cli.js --target node",
+		"prepublishOnly": "bun run build"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"boxen": "^8.0.1",
+		"terminal-link": "^3.0.0",
+		"yoctocolors": "^2.1.1"
+	}
+}
