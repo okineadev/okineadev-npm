@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import boxen from 'boxen'
 import terminalLink from 'terminal-link'
 import colors from 'yoctocolors'

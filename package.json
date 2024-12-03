@@ -2,7 +2,9 @@
 	"name": "okineadev",
 	"version": "0.0.0",
 	"module": "index.ts",
-	"bin": "dist/cli.js",
+	"bin": {
+		"okineadev": "./dist/cli.js"
+	},
 	"type": "module",
 	"repository": {
 		"type": "git",
