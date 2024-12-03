@@ -3,7 +3,7 @@
 	"version": "0.0.2",
 	"module": "index.ts",
 	"bin": {
-		"okineadev": "./dist/cli.js"
+		"okineadev": "dist/cli.js"
 	},
 	"type": "module",
 	"repository": {
@@ -19,7 +19,7 @@
 		"lint": "biome check --fix",
 		"format": "biome format --write .",
 		"preversion": "bun run format && git add .",
-		"build": "bun build ./index.ts --outfile ./dist/cli.js --target node",
+		"build": "bun build ./index.ts --outfile ./dist/cli.js --target node && chmod +x ./dist/cli.js",
 		"prepublishOnly": "bun run build"
 	},
 	"peerDependencies": {
