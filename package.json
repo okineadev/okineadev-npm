@@ -4,6 +4,10 @@
 	"module": "index.ts",
 	"bin": "dist/cli.js",
 	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/okineadev/okineadev-npm.git"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@types/bun": "latest",
