@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.9
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.8...v0.0.9)
+
+### 🩹 Fixes
+
+- 🚑 fix npmignore ([5201f4c](https://github.com/okineadev/okineadev-npm/commit/5201f4c))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.8
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.7...v0.0.8)
