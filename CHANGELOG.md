@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.6...v0.0.7)
+
+### 🚀 Enhancements
+
+- Improve design ([6d38475](https://github.com/okineadev/okineadev-npm/commit/6d38475))
+
+### 🏡 Chore
+
+- Configure Renovate ([#1](https://github.com/okineadev/okineadev-npm/pull/1))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.6
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.5...v0.0.6)
