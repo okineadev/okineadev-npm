@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.10
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.9...v0.0.10)
+
+### 🩹 Fixes
+
+- **workflows:** 📦 use `npm` for publishing ([85dba61](https://github.com/okineadev/okineadev-npm/commit/85dba61))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.9
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.8...v0.0.9)
