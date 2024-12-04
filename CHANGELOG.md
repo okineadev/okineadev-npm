@@ -1,6 +1,25 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Use automatic centering ([2ac3b0b](https://github.com/okineadev/okineadev-npm/commit/2ac3b0b))
+- Improve text centering ([234057d](https://github.com/okineadev/okineadev-npm/commit/234057d))
+- Improve description ([0b576b1](https://github.com/okineadev/okineadev-npm/commit/0b576b1))
+- Add spacing between title and description ([8ec20fe](https://github.com/okineadev/okineadev-npm/commit/8ec20fe))
+
+### 💅 Refactors
+
+- ♻️ refactor some code ([7b1e51e](https://github.com/okineadev/okineadev-npm/commit/7b1e51e))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.5
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.4...v0.0.5)
