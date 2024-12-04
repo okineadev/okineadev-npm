@@ -1,7 +1,8 @@
 {
 	"name": "okineadev",
 	"version": "0.0.5",
-	"module": "index.ts",
+	"module": "src/index.ts",
+	"main": "src/index.ts",
 	"bin": {
 		"okineadev": "dist/cli.js"
 	},
@@ -19,7 +20,7 @@
 		"lint": "biome check --fix",
 		"format": "biome format --write .",
 		"preversion": "bun run format && git add .",
-		"build": "bun build ./index.ts --outfile ./dist/cli.js --target node && chmod +x ./dist/cli.js",
+		"build": "bun build ./src/index.ts --minify --outfile ./dist/cli.js --target node --footer '// Built with Bun! (https://bun.sh)'",
 		"prepublishOnly": "bun run build"
 	},
 	"peerDependencies": {
@@ -27,7 +28,9 @@
 	},
 	"dependencies": {
 		"boxen": "^8.0.1",
+		"strip-ansi": "^7.1.0",
 		"terminal-link": "^3.0.0",
+		"widest-line": "^5.0.0",
 		"yoctocolors": "^2.1.1"
 	}
 }
