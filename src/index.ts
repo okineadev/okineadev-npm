@@ -32,7 +32,7 @@ const longestLine = Math.max(
 	widestLine(stripAnsi(socialLinks)),
 )
 
-const text = `${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`
+const text = `${center(title, longestLine + 2)}\n\n${center(description, longestLine + 2)}\n\n${socialLinks}`
 
 // const text = unionTexts([
 // 	`${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`,
