@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.11
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.10...v0.0.11)
+
+### 📖 Documentation
+
+- Fix changelog ([22e72e4](https://github.com/okineadev/okineadev-npm/commit/22e72e4))
+- 📝 improve `README.md` ([d686305](https://github.com/okineadev/okineadev-npm/commit/d686305))
+
+### 🏡 Chore
+
+- Add additional info in `package.json` ([a41bb89](https://github.com/okineadev/okineadev-npm/commit/a41bb89))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.10
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.9...v0.0.10)
