@@ -25,8 +25,6 @@ jobs:
 
       - name: 🔧 Setup Bun
         uses: oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5 # v2
-        # with:
-        #   registry-url: https://registry.npmjs.org/
 
       - name: 📦 Install dependencies
         run: bun install --frozen-lockfile
@@ -48,7 +46,7 @@ jobs:
       - name: 🛠️ Build package
         run: bun run build
 
-      - name: 📦 Publish to NPM
-        run: bun publish --access public
+      - name: 📦 Publish to NPM Registry
+        run: bunx npm publish --provenance --access public
         env:
           NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
