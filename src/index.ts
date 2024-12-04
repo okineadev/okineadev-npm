@@ -17,7 +17,8 @@ const BORDER_COLOR = 'grey'
 
 // Text
 const title = `Hi!👋  I'm ${colors.bold('Okinea Dev')}`
-const description = 'Here you can view links to my profiles'
+const description =
+	'Here you can view links to my profiles\nI also recommend visiting https://okinea.dev'
 
 const socialLinks = Object.entries(socials)
 	.map(([key, value]) => {
@@ -27,7 +28,7 @@ const socialLinks = Object.entries(socials)
 
 const longestLine = Math.max(
 	stringWidth(stripAnsi(title)),
-	stringWidth(stripAnsi(description)),
+	widestLine(stripAnsi(description)),
 	widestLine(stripAnsi(socialLinks)),
 )
 

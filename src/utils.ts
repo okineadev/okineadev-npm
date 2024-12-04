@@ -22,15 +22,24 @@ import stringWidth from 'string-width'
  * // Returns "      Welcome!      "
  */
 export function center(text: string, maxWidth: number): string {
-	const cleanText = stripAnsi(text)
-	const textLength = widestLine(cleanText)
+	const strings = text.split('\n')
+	const result: string[] = []
 
-	if (maxWidth <= textLength) return text
+	for (const string of strings) {
+		const cleanString = stripAnsi(string)
+		const stringLength = stringWidth(cleanString)
 
-	const totalPadding = maxWidth - textLength
-	const padding = repeat(' ', Math.floor(totalPadding / 2))
+		if (stringLength > maxWidth) {
+			result.push(string)
+			continue
+		}
 
-	return padding + text + padding
+		const padding = repeat(' ', Math.floor((maxWidth - stringLength) / 2))
+
+		result.push(`${padding}${string}${padding}`)
+	}
+
+	return result.join('\n')
 }
 
 /**
