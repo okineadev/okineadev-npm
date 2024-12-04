@@ -8,6 +8,23 @@
 ### 🩹 Fixes
 
 - **workflows:** 📦 use `npm` for publishing ([85dba61](https://github.com/okineadev/okineadev-npm/commit/85dba61))
+- :shipit: fix `npm publish` error ([57d64ed](https://github.com/okineadev/okineadev-npm/commit/57d64ed))
+
+### 🏡 Chore
+
+- **release:** V0.0.10 ([e2fa9fb](https://github.com/okineadev/okineadev-npm/commit/e2fa9fb))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
+## v0.0.10
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.9...v0.0.10)
+
+### 🩹 Fixes
+
+- **workflows:** 📦 use `npm` for publishing ([85dba61](https://github.com/okineadev/okineadev-npm/commit/85dba61))
 
 ### ❤️ Contributors
 
