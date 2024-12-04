@@ -4,8 +4,9 @@ import terminalLink from 'terminal-link'
 import colors from 'yoctocolors'
 import boxen from 'boxen'
 import socials from './socials'
-import { centerText } from './utils'
+import { center, unionTexts } from './utils'
 import stripAnsi from 'strip-ansi'
+import stringWidth from 'string-width'
 import widestLine from 'widest-line'
 
 // Constants
@@ -23,18 +24,13 @@ const socialLinks = Object.entries(socials)
 	})
 	.join('\n')
 
-// const longestLine = widestLine(stripAnsi(title + description + socialLinks))
-
 const longestLine = Math.max(
-	widestLine(stripAnsi(title)),
-	widestLine(stripAnsi(description)),
+	stringWidth(stripAnsi(title)),
+	stringWidth(stripAnsi(description)),
 	widestLine(stripAnsi(socialLinks)),
 )
 
-const centeredTitle = centerText(title, longestLine + 4)
-const centeredDescription = centerText(description, longestLine + 4)
-
-const text = `${centeredTitle}\n${centeredDescription}\n\n${socialLinks}`
+const text = `${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`
 
 // Output
 console.log(

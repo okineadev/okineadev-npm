@@ -27,7 +27,10 @@
 		"typescript": "^5.0.0"
 	},
 	"dependencies": {
+		"@types/repeat-string": "^1.6.5",
 		"boxen": "^8.0.1",
+		"repeat-string": "^1.6.1",
+		"string-width": "^7.2.0",
 		"strip-ansi": "^7.1.0",
 		"terminal-link": "^3.0.0",
 		"widest-line": "^5.0.0",

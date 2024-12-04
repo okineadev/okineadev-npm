@@ -1,5 +1,6 @@
 import widestLine from 'widest-line'
 import stripAnsi from 'strip-ansi'
+import repeat from 'repeat-string'
 
 /**
  * Centers text within a given width by adding padding spaces on both sides
@@ -19,17 +20,33 @@ import stripAnsi from 'strip-ansi'
  * centerText(title, width)
  * // Returns "      Welcome!      "
  */
-export function centerText(text: string, maxWidth: number): string {
+export function center(text: string, maxWidth: number): string {
 	const cleanText = stripAnsi(text)
 	const textLength = widestLine(cleanText)
 
 	if (maxWidth <= textLength) return text
 
 	const totalPadding = maxWidth - textLength
-	const padding = Math.floor(totalPadding / 2)
+	const padding = repeat(' ', Math.floor(totalPadding / 2))
 
-	const leftPadding = ' '.repeat(padding)
-	const rightPadding = ' '.repeat(padding)
+	return padding + text + padding
+}
 
-	return leftPadding + text + rightPadding
+/**
+ * Combines multiple texts into columns with a custom separator.
+ * @param texts - Array of strings to combine.
+ * @param separator - String to use as the separator between columns. Default is " │ ".
+ * @returns A single string with combined texts formatted as columns.
+ */
+export function unionTexts(texts: string[], separator = '  '): string {
+	const splitTexts = texts.map((text) => text.split('\n'))
+	const maxLines = Math.max(...splitTexts.map((lines) => lines.length))
+
+	const resultLines = []
+	for (let i = 0; i < maxLines; i++) {
+		const line = splitTexts.map((lines) => lines[i] || '').join(separator)
+		resultLines.push(line)
+	}
+
+	return resultLines.join('\n')
 }
