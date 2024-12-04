@@ -1,12 +1,28 @@
 {
 	"name": "okineadev",
 	"version": "0.0.10",
-	"module": "src/index.ts",
 	"main": "src/index.ts",
+	"module": "src/index.ts",
 	"bin": {
 		"okineadev": "dist/cli.js"
 	},
 	"type": "module",
+	"author": {
+		"name": "Okinea Dev",
+		"url": "https://okinea.dev"
+	},
+	"bugs": {
+		"url": "https://github.com/okineadev/okineadev-npm/issues"
+	},
+	"description": "💻 Just my contacts in the CLI",
+	"keywords": [
+		"cli",
+		"portfolio",
+		"typescript",
+		"links",
+		"bun"
+	],
+	"packageManager": "bun@1.1.38",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/okineadev/okineadev-npm.git"
