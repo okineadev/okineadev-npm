@@ -8,6 +8,7 @@ import { center, unionTexts } from './utils'
 import stripAnsi from 'strip-ansi'
 import stringWidth from 'string-width'
 import widestLine from 'widest-line'
+// import QRCode from 'qrcode'
 
 // Constants
 const BORDER_STYLE = 'round'
@@ -31,6 +32,15 @@ const longestLine = Math.max(
 )
 
 const text = `${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`
+
+// const text = unionTexts([
+// 	`${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`,
+// 	await QRCode.toString('okinea.dev', {
+// 		type: 'terminal',
+// 		small: true,
+// 		margin: 0,
+// 	}),
+// ]).trimEnd()
 
 // Output
 console.log(
