@@ -1,15 +1,13 @@
 # okineadev-npm
 
-To install dependencies:
+To get my contacts in the **CLI**, run this command:
 
 ```bash
-bun install
+npx okineadev
+# Or if you have Bun installed
+bunx okineadev
 ```
 
-To run:
+You will see this:
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.39. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+![screenshot](https://raw.githubusercontent.com/okineadev/okineadev-npm/refs/heads/main/assets/screenshot.png)
