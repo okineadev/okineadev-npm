@@ -14,6 +14,7 @@
 	"bugs": {
 		"url": "https://github.com/okineadev/okineadev-npm/issues"
 	},
+	"license": "MIT",
 	"description": "💻 Just my contacts in the CLI",
 	"keywords": [
 		"cli",
