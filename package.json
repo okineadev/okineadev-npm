@@ -1,6 +1,6 @@
 {
 	"name": "okineadev",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"module": "src/index.ts",
 	"main": "src/index.ts",
 	"bin": {

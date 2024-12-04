@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.8
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.7...v0.0.8)
+
+### 🩹 Fixes
+
+- Update .npmignore ([831c106](https://github.com/okineadev/okineadev-npm/commit/831c106))
+
+### 🏡 Chore
+
+- **workflows:** Update publish step emoji ([1035063](https://github.com/okineadev/okineadev-npm/commit/1035063))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.7
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.6...v0.0.7)
