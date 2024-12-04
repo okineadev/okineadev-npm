@@ -8,6 +8,7 @@ import { center, unionTexts } from './utils'
 import stripAnsi from 'strip-ansi'
 import stringWidth from 'string-width'
 import widestLine from 'widest-line'
+import repeat from 'repeat-string'
 // import QRCode from 'qrcode'
 
 // Constants
@@ -32,7 +33,32 @@ const longestLine = Math.max(
 	widestLine(stripAnsi(socialLinks)),
 )
 
-const text = `${center(title, longestLine + 2)}\n\n${center(description, longestLine + 2)}\n\n${socialLinks}`
+const macOSControls = `${colors.red('●')} ${colors.yellow('●')} ${colors.green('●')}`
+
+const name = colors.dim('🇾​​🇺​​🇷​​🇮​​🇮​ ​🇧​​🇴​​🇬​​🇩​​🇦​​🇳​')
+const barcode = colors.whiteBright('║█║▌║█║▌│║▌█║▌║')
+const bottom = `${barcode} ${name}`
+
+const paletteASCII = `\
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⡠⣶⣶⣿⡟
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣷⣿⣿⠟
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣀⣠⣤⣄⡀⢀⣴⡮⠉
+⠄⠄⠄⠄⠄⠄⠄⣴⣿⣿⣿⣿⠿⢟⢱⣿⡟⣰⣦⣀
+⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⠁⣠⣾⣷⠍⣼⣿⣿⣿⣷⡄
+⠄⠄⠄⠄⠄⠄⠄⠄⠙⢻⣿⣦⣉⣛⣃⣠⣿⣿⣿⣿⣿⣿⣆
+⠄⣠⣶⣿⣷⣦⡀⠄⠄⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀
+⢸⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣿⣿⣿⡟⠁⠄⠄⠈⢻⣿⡇
+⢸⣿⣿⡿⠛⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣼⣿⡇
+⠘⣿⣿⡄⠄⠄⠄⢀⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⣿⣿⣿⣿⣿⠃
+⠄⠹⣿⣿⣷⣶⣶⣿⣿⣿⣿⣿⣿⣿⡏⠄⠄⠄⠄⢻⣿⣿⡟
+⠄⠄⠙⢿⣿⣿⣿⡟⠁⠄⠄⠈⠻⣿⣿⣦⣄⣀⣴⣿⣿⠏
+⠄⠄⠄⠄⠙⢿⣿⣿⣤⣀⣀⣀⣴⣿⣿⣿⣿⣿⡿⠟⠁
+⠄⠄⠄⠄⠄⠄⠈⠙⠛⠿⠿⠿⠿⠿⠿⠛⠛⠉`
+
+const text = unionTexts([
+	`${macOSControls}\n${center(title, longestLine + 2)}\n\n${center(description, longestLine + 2)}\n\n${socialLinks}\n${repeat(colors.dim('─'), longestLine + 1)}\n${bottom}`,
+	paletteASCII,
+])
 
 // const text = unionTexts([
 // 	`${center(title, longestLine + 2)}\n${center(description, longestLine + 2)}\n\n${socialLinks}`,

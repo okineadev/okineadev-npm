@@ -17,6 +17,10 @@ const socials: Record<string, SocialProfile> = {
 		username: 'okineadev',
 		link: 'https://okineadev.medium.com/',
 	},
+	'DEV.to': {
+		username: 'okineadev',
+		link: 'https://dev.to/okineadev',
+	},
 	Discord: {
 		username: 'okineadev',
 		link: 'https://discord.com/users/okineadev',

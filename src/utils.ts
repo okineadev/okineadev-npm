@@ -49,8 +49,8 @@ export function center(text: string, maxWidth: number): string {
  * @returns A single string with combined texts formatted as columns.
  */
 export function unionTexts(texts: string[], separator = '    '): string {
-	const splitTexts = texts.map((text) => text.split('\n'))
-	const maxLines = Math.max(...splitTexts.map((lines) => lines.length)) - 1
+	const splitTexts = texts.map((text) => text.split(/\r?\n/))
+	const maxLines = Math.max(...splitTexts.map((lines) => lines.length))
 
 	// Calculate the maximum display width for each text column
 	const columnWidths = splitTexts.map((lines) =>
