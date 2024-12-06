@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.14
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.13...v0.0.14)
+
+### 🩹 Fixes
+
+- Fix `.npmignore` ([328c42b](https://github.com/okineadev/okineadev-npm/commit/328c42b))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.13
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.12...v0.0.13)
