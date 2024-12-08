@@ -4,7 +4,7 @@
 	"main": "src/index.tsx",
 	"module": "src/index.tsx",
 	"bin": {
-		"okineadev": "dist/cli.js"
+		"okineadev": "dist/index.js"
 	},
 	"type": "module",
 	"author": {
