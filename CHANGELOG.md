@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.16
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.15...v0.0.16)
+
+### 🩹 Fixes
+
+- Fix executable path ([98c5c1b](https://github.com/okineadev/okineadev-npm/commit/98c5c1b))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.15
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.14...v0.0.15)
