@@ -31,7 +31,7 @@
 		"lint": "biome check --fix",
 		"format": "biome format --write .",
 		"preversion": "bun run format && git add .",
-		"build": "bun build ./src/index.tsx --minify --outfile ./dist/cli.js --target node --footer '// Built with Bun! (https://bun.sh)' && cp node_modules/yoga-wasm-web/dist/yoga.wasm dist/",
+		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
 		"prepublishOnly": "bun run build"
 	},
 	"peerDependencies": {
