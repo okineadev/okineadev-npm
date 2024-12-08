@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.15
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.14...v0.0.15)
+
+### 🚀 Enhancements
+
+- 💵 add `FUNDING.yml` ([557d395](https://github.com/okineadev/okineadev-npm/commit/557d395))
+
+### 🩹 Fixes
+
+- Fix `yoga-wasm` issue ([601b8d7](https://github.com/okineadev/okineadev-npm/commit/601b8d7))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.14
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.13...v0.0.14)
