@@ -84,7 +84,9 @@ const App = () => (
 							{key}
 						</Text>
 						{': '}
-						<Link url={value.link}>@{value.username}</Link>
+						<Link url={value.link} fallback={false}>
+							@{value.username}
+						</Link>
 					</Text>
 				))}
 			</Box>
