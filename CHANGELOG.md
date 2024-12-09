@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.17
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.16...v0.0.17)
+
+### 🩹 Fixes
+
+- Don't fallback to plain links ([df5ba30](https://github.com/okineadev/okineadev-npm/commit/df5ba30))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.16
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.15...v0.0.16)
