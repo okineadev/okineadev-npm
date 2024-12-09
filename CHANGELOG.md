@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.18
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.17...v0.0.18)
+
+### 🚀 Enhancements
+
+- Use `ink-divider` package ([0a44d67](https://github.com/okineadev/okineadev-npm/commit/0a44d67))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.17
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.16...v0.0.17)
