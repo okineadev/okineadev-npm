@@ -2,7 +2,7 @@
 
 import socials from './socials'
 import { render, Text, Box, Newline } from 'ink'
-import Divider from './components/Divider'
+import Divider from 'ink-divider'
 import Link from 'ink-link'
 // import QRCode from 'qrcode'
 
