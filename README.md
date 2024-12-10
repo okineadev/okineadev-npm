@@ -15,4 +15,5 @@ You will see this:
 ## 📦 Packages Used
 
 - [ink](https://www.npmjs.com/package/ink) - React for CLIs
+- [ink-divider](https://www.npmjs.com/package/ink-divider) - Divider component for Ink
 - [ink-link](https://www.npmjs.com/package/ink-link) - Link component for Ink
