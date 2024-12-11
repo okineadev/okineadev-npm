@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
-import socials from './socials'
 import { render, Text, Box, Newline } from 'ink'
 import Divider from 'ink-divider'
 import Link from 'ink-link'
 // import QRCode from 'qrcode'
+
+import socials from './socials'
 
 // Constants
 const BORDER_STYLE = 'round'
@@ -76,7 +77,6 @@ const App = () => (
 				</Text>
 				{description}
 			</Box>
-
 			<Box flexDirection="column" marginTop={1}>
 				{Object.entries(socials).map(([key, value]) => (
 					<Text key={key}>
