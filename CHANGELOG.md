@@ -1,5 +1,6 @@
-# Changelog
+<!-- markdownlint-disable no-duplicate-heading -->
 
+# Changelog
 
 ## v0.0.18
 
@@ -228,7 +229,6 @@
 
 ## v0.0.1
 
-
 ### 🚀 Enhancements
 
 - 🎉 initial commit ([cff4378](https://github.com/okineadev/okineadev-npm/commit/cff4378))
@@ -250,4 +250,3 @@
 ### ❤️ Contributors
 
 - Okinea Dev ([@okineadev](http://github.com/okineadev))
-

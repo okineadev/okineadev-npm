@@ -10,7 +10,7 @@ bunx okineadev
 
 You will see this:
 
-![screenshot](https://raw.githubusercontent.com/okineadev/okineadev-npm/refs/heads/main/assets/screenshot.png)
+![CLI output screenshot](https://raw.githubusercontent.com/okineadev/okineadev-npm/main/assets/screenshot.png)
 
 ## 📦 Packages Used
 
