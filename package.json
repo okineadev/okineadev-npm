@@ -30,7 +30,7 @@
 		"prepublishOnly": "bun run build"
 	},
 	"lint-staged": {
-		"*": "bun run format"
+		"*": "bun run format --no-errors-on-unmatched"
 	},
 	"peerDependencies": {
 		"typescript": "^5.7.2"
