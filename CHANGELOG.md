@@ -2,6 +2,34 @@
 
 # Changelog
 
+## v1.0.0
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.18...v1.0.0)
+
+### 🩹 Fixes
+
+- Fix lint-staged configuration ([3ce83b4](https://github.com/okineadev/okineadev-npm/commit/3ce83b4))
+
+### 📖 Documentation
+
+- Fix markdownlint violations in changelog and improve readme ([30d5081](https://github.com/okineadev/okineadev-npm/commit/30d5081))
+
+### 🏡 Chore
+
+- ✏️ update `ink-divider` version and add to README ([dc61c76](https://github.com/okineadev/okineadev-npm/commit/dc61c76))
+- 🗑️ remove unused `shim.ts` script ([4ec9c88](https://github.com/okineadev/okineadev-npm/commit/4ec9c88))
+- ✏️ reorder imports in `index.tsx` ([c135f02](https://github.com/okineadev/okineadev-npm/commit/c135f02))
+- ✏️ enable VCS in `biome.json` and add husky hooks ([dce2e1b](https://github.com/okineadev/okineadev-npm/commit/dce2e1b))
+- ✏️ update formatter settings and scripts ([98cfef1](https://github.com/okineadev/okineadev-npm/commit/98cfef1))
+
+### 🤖 CI
+
+- 🚀 add version input to publish workflow ([747ac10](https://github.com/okineadev/okineadev-npm/commit/747ac10))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v0.0.18
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.17...v0.0.18)
