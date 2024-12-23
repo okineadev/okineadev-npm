@@ -23,14 +23,14 @@
 	},
 	"scripts": {
 		"lint": "biome check --fix",
-		"format": "biome format --write .",
+		"format": "biome format --write",
 		"prepare": "husky",
 		"preversion": "bun run format && git add .",
 		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
 		"prepublishOnly": "bun run build"
 	},
 	"lint-staged": {
-		"*": "bun run format --no-errors-on-unmatched --files-ignore-unknown=true"
+		"*": "bun run format"
 	},
 	"peerDependencies": {
 		"typescript": "^5.7.2"
