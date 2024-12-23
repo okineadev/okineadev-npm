@@ -16,13 +16,7 @@
 	},
 	"license": "MIT",
 	"description": "💻 Just my contacts in the CLI",
-	"keywords": [
-		"cli",
-		"portfolio",
-		"typescript",
-		"links",
-		"bun"
-	],
+	"keywords": ["cli", "portfolio", "typescript", "links", "bun"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/okineadev/okineadev-npm.git"
@@ -30,9 +24,13 @@
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write .",
+		"prepare": "husky",
 		"preversion": "bun run format && git add .",
 		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
 		"prepublishOnly": "bun run build"
+	},
+	"lint-staged": {
+		"*": "bun run format --no-errors-on-unmatched --files-ignore-unknown=true"
 	},
 	"peerDependencies": {
 		"typescript": "^5.7.2"
@@ -40,16 +38,16 @@
 	"dependencies": {
 		"ink": "^5.1.0",
 		"ink-divider": "^4.0.1",
-		"ink-link": "^4.1.0",
-		"react": "^18.3.1",
-		"yoga-wasm": "^0.0.2"
+		"ink-link": "^4.1.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@types/bun": "^1.1.14",
 		"@types/ink-divider": "^2.0.4",
+		"@types/react": "^18.3.14",
 		"changelogen": "^0.5.7",
-		"@types/react": "^18.3.14"
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.11"
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"
