@@ -2,6 +2,18 @@
 
 # Changelog
 
+## v1.0.1
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.0...v1.0.1)
+
+### 🏡 Chore
+
+- Use redirect for my telegram profile ([4fa42d8](https://github.com/okineadev/okineadev-npm/commit/4fa42d8))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.0
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v0.0.18...v1.0.0)
