@@ -11,7 +11,7 @@ const socials: Record<string, SocialProfile> = {
 	},
 	Telegram: {
 		username: 'okineadev',
-		link: 'https://t.me/okineadev',
+		link: 'https://telegram.okinea.dev',
 	},
 	Medium: {
 		username: 'okineadev',
