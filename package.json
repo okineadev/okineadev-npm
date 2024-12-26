@@ -21,6 +21,7 @@
 		"type": "git",
 		"url": "git+https://github.com/okineadev/okineadev-npm.git"
 	},
+	"funding": "https://github.com/okineadev/okineadev-npm?sponsor=1",
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write",
