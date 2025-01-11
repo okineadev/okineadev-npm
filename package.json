@@ -27,7 +27,7 @@
 		"format": "biome format --write",
 		"prepare": "husky",
 		"preversion": "bun run format && git add .",
-		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
+		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --packages external",
 		"prepublishOnly": "bun run build"
 	},
 	"lint-staged": {
@@ -44,7 +44,6 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@types/bun": "^1.1.14",
-		"@types/ink-divider": "^2.0.4",
 		"@types/react": "^18.3.14",
 		"changelogen": "^0.5.7",
 		"husky": "^9.1.7",
