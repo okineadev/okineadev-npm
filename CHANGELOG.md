@@ -2,6 +2,23 @@
 
 # Changelog
 
+## v1.0.2
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.1...v1.0.2)
+
+### 🔥 Performance
+
+- ⚡ reduce bundle size ([30ba435](https://github.com/okineadev/okineadev-npm/commit/30ba435))
+
+### 🏡 Chore
+
+- 💵 add funding link in `package.json` ([6899304](https://github.com/okineadev/okineadev-npm/commit/6899304))
+- 🔒 use text-based Bun lockfile ([deca076](https://github.com/okineadev/okineadev-npm/commit/deca076))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.1
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.0...v1.0.1)
