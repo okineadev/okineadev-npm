@@ -2,6 +2,18 @@
 
 # Changelog
 
+## v1.0.3
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.2...v1.0.3)
+
+### 🏡 Chore
+
+- 🔧 update peerDependencies in `package.json` ([d759516](https://github.com/okineadev/okineadev-npm/commit/d759516))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.2
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.1...v1.0.2)
