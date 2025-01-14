@@ -33,18 +33,17 @@
 	"lint-staged": {
 		"*": "bun run format --no-errors-on-unmatched"
 	},
-	"peerDependencies": {
-		"typescript": "^5.7.2"
-	},
 	"dependencies": {
 		"ink": "^5.1.0",
 		"ink-divider": "^4.0.1",
 		"ink-link": "^4.1.0"
 	},
+	"peerDependencies": {
+		"react": "^18.3.1"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@types/bun": "^1.1.14",
-		"@types/react": "^18.3.14",
+		"@types/react": "^18.3.1",
 		"changelogen": "^0.5.7",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.2.11"
