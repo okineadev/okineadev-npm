@@ -2,6 +2,18 @@
 
 # Changelog
 
+## v1.0.4
+
+[compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.3...v1.0.4)
+
+### 🏡 Chore
+
+- Update telegram username pattern ([f6992a3](https://github.com/okineadev/okineadev-npm/commit/f6992a3))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.3
 
 [compare changes](https://github.com/okineadev/okineadev-npm/compare/v1.0.2...v1.0.3)
