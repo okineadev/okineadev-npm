@@ -34,7 +34,7 @@
 		"*": "bun run format --no-errors-on-unmatched"
 	},
 	"dependencies": {
-		"ink": "^5.1.0",
+		"ink": "^6.0.0",
 		"ink-divider": "^4.0.1",
 		"ink-link": "^4.1.0"
 	},
